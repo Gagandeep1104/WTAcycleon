@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cycle-On</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,300,700,900">
+    <link rel="stylesheet" href="newcss.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <header class="container-fluid">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <a class="sm-brand" href="#">
+                <img src="img/logo.png" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="main-nav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fa fa-bars fa-3x" aria-hidden="true"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="main-nav">
+                <ul class="navbar-nav text-center">
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" href="aboutus.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" href="https://www.rei.com/adventures/a/cycling">Tours</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" href="price.html">Rental</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navbar-brand" href="sub.html">
+                            <img src="img/logo.png" alt="logo">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" href="contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" href="https://www.forbesindia.com/article/special/can-cycle-renting-take-off-in-india/50325/1">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" href="Login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="intro container-fluid text-center">
+        <div class="intro-content">
+            <h2 class="intro-subtitle fadeInLeft animated">Cycle-On rentals</h2>
+            <h1 class="intro-title fadeInRight animated text-uppercase">Explore cycling in and out of NITK</h1>
+            <a class="intro-box pink fadeInDown animated" href="https://www.rei.com/adventures/a/cycling">
+                <span class="intro-box-subtitle">Explore</span>
+                <h2 class="intro-box-title text-uppercase">Tours</h2>
+            </a>
+            <a class="intro-box lightblue fadeInDown animated" href="price.html">
+                <span class="intro-box-subtitle">Rental</span>
+                <h2 class="intro-box-title text-uppercase">Bikes</h2>
+            </a>
+        </div>
+    </section>
+    <section class="tours container-fluid">
+        <div class="row">
+            <div class="col-lg-4 tours-text">
+                <h1 class="tours-title text-uppercase">rides</h1>
+                <div class="tours-content">
+                    <p>We have wide range of collection to choose from. You can choose rides according to your adventures. MTB for off-road, Road for city rides and hybrid for comfort</p>
+                </div>
+            </div>
+            <div class="col-lg-8 tours-slider">
+                <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner text-center">
+                        <div class="carousel-item active" style="background-image: url(img/home-tours1.jpg)">
+                            <div class="carousel-caption">
+                                <h2 class="slide-title text-uppercase">MTB</h2>
+                                <a href="#" class="slide-link pink">View rides</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item" style="background-image: url(img/home-tours2.jpg)">
+                            <div class="carousel-caption">
+                                <h2 class="slide-title text-uppercase">Road</h2>
+                                <a href="#" class="slide-link pink">View rides</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item" style="background-image: url(img/home-tours3.jpg)">
+                            <div class="carousel-caption">
+                                <h2 class="slide-title text-uppercase">Hybrid</h2>
+                                <a href="#" class="slide-link pink">View rides</a>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+                        <span aria-hidden="true">
+                            <i class="fa fa-angle-left" aria-hidden="true"></i>
+                        </span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+                        <span aria-hidden="true">
+                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        </span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bikes container-fluid text-center">
+        <div class="row">
+            <div class="col-sm-12 bikes-text">
+                <h1 class="bikes-title text-uppercase">Accessories</h1>
+                <div class="bikes-content">
+                    <p>We have a whole range of biking and camping accessories for your adventure</p>
+                </div>
+                <a href="#" class="bikes-link pink">View Collection</a>
+            </div>
+        </div>
+    </section>
+    <section class="about container-fluid">
+        <div class="row">
+            <div class="col-lg-6 about-text">
+                <h1 class="about-title text-uppercase">About Us</h1>
+                <div class="about-content">
+                    <p>We are the guys to think about when you start to plan out your little adventure or think of going to class, who wants all that walking anyway. so we are here to make your journey to class easier or make your adventure more fun .</p>
+                </div>
+            </div>
+            <div class="col-lg-6 about-img">
+                <a href="team.html" class="about-link lightblue">Meet the team</a>
+            </div>
+        </div>
+    </section>
+    <footer class="footer container-fluid">
+        <div class="row">
+            <div class="col-lg-4 col-md-12 footer-logo align-self-center">
+                <p>Website by Cycle-on co</p>
+                <a href="#">
+                    <img src="img/logo.png" alt="logoAvotz">
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-12 footer-copy text-center align-self-center">
+                <a href="#">Cycle-On</a>
+                <span>NITK</span>
+            </div>
+            <div class="col-lg-4 col-md-12 footer-social align-self-center">
+                <ul class="social-nav">
+                    <li>
+                        <a href="http://www.facebook.com">
+                            <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="http://www.twitter.com">
+                            <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="http://www.gmail.com">
+                            <i class="fa fa-google-plus fa-2x" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="http://www.youtube.com">
+                            <i class="fa fa-youtube fa-2x" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">
+                            <i class="fa fa-pinterest-p fa-2x" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
